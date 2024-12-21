@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Like Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Верхняя панель -->
+    <div class="header">
+        <h1>YouTube</h1>
+    </div>
+
+    <!-- Лента видео -->
+    <div id="video-container">
+        <div class="video" onclick="playVideo('song/song1.mp3')">
+            <img src="photo/1.png" alt="video thumbnail">
+            <p>Раздал $100 каждому жителю Африки!</p>
+        </div>
+        <div class="video" onclick="playVideo('song/song1.mp3')">
+            <img src="photo/2.png" alt="video thumbnail">
+            <p>Создал свой YouTube</p>
+        </div>
+        <div class="video" onclick="playVideo('song/song1.mp3')">
+            <img src="photo/3.png" alt="video thumbnail">
+            <p>Обход YouTube! | GitHub Pages!</p>
+        </div>
+    </div>
+
+    <audio id="audio-player" src="" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

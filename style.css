@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ff0000; /* Цвет как у YouTube */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 70px; /* Отступ, чтобы не перекрывать контент */
+}
+
+.video {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video p {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
